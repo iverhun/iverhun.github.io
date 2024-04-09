@@ -1,49 +1,53 @@
 # section information
 section:
-  name: Skills
+  name: Main Tech Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true
+  hideTitle: false
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "{{< fa fab java >}} Java is my first and lifelong love 💙 Since version 1.4 (2004), it has inspired me with its elegance and power. Java is one of my primary choices for enterprise-scale applications and small POCs. Spring Framework, Hibernate, and Maven are my pets 🐶"
+#  url: "https://java.com/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "🐍 Python is my best friend when it comes to scripting and pet projects for home usage, such as TV Photo Frame or IoT backend apps. Pandas 🐼 Numpy, and Matplotlib 📈 are great for data processing and analysis. And Turtle 🐢 is fun when we learn programming with my kids."
+#  url: "https://www.python.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: AWS Cloud Computing
+  logo: /images/sections/skills/aws.svg
+  summary: "Amplify, ALB, Cognito, CloudFront, CloudWatch, GuardDuty, ECS, KMS, Lambda, RDS... Phew... 🥵 Let me stop here, even though this is not the end of the list of the services I have used to build scalable, secure applications on top of AWS."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  summary: "📦 Whether deploying in ECS or Kubernetes, testing with TestContainers, starting multiple services with Docker Compose, or keeping my hard drive clean by using yet another DB in a container, Docker is about simplicity, safety, and order."
+#  url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Databases
+  logo: /images/sections/skills/database-sql.svg
+  summary: "Designing DB schemas, troubleshooting and optimizing queries, data migrations, and schema evolution - this is what I do with confidence 🧑🏽‍💻 My favorite RDBMSs are MySql and PostgreSQL, but I feel excited about exploring others SQL and NoSQL DBs such as MongoDBB or AWS DynamoDB."
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  logo: /images/sections/skills/linux.svg
+  summary: "When “talking” to a computer, I’m a CLI guy 🖥️, preferring text commands over UI controls. Linux offers the best CLI experience, powerful scripting capabilities, and a robust security model. Indeed, I’m not a Linux hacker, but my knowledge of Linux allows me to conduct training and mentor others 🎓"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+- name: Event Driven Apps
+  logo: /images/sections/skills/mq.svg
+  summary: "I have been using JMS (ActveMQ), AMQP (RabbitMQ 🐰) and Kafka for enterprise apps, and MQTT for home-made IoT projects."
+ # url: "https://microservices.io/patterns/data/event-driven-architecture.html"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Git and CI/CD
+  logo: /images/sections/skills/git.svg
+  summary: "I'm one of those who know exactly [how Rebase in Git works](https://youtu.be/Xk5hH79dCBU?si=XdTjq3e-XLIy21Ah), and I'm happily sharing this knowledge with others. I can also configure a build pipeline, whether it is GitHub, Bitbucket, or GitLab. The same applies to AWS CodeCommit, Azure Repos, or the old good Jenkins."
+  # url: "https://git-scm.com/"
+
+- name: Agile
+  logo: /images/sections/skills/scrum.svg
+  summary: "The Agile development process is like a game. Not only do I know the rules, but I also love to make them serve the team so that the team is productive and motivated. Scrum or KanBan depends on a few factors, but the focus is always on achieving the result."
