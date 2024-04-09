@@ -23,7 +23,12 @@ degrees:
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     collapseAfter: 5
     courses:
+    - name: Calculus and Mathematical Analysis
+    - name: Discrete Mathematics
+    - name: Mathematical statistics and Probability theory
+    - name: Algebra and Analytic Geometry
+    - name: Differential Calculus
+    - name: Numerical Analysis
     - name: Data Structures and Algorithm
-    - name: Network Security
-    - name: Operating System
-    - name: Artificial Intelligent
+    - name: Database Theory
+    - name: Mathematical Modeling
