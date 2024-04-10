@@ -12,13 +12,10 @@ contactInfo:
   telegram: 
     url: https://telegram.me/IvanVibeFan
     icon: telegram
-    text: "@IvanVibeFan"
+    text: "IvanVibeFan"
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Tech Lead
-  - I love Java
-  - I love Python  
-  - I love Linux
-  - I'm Ukrainian 🇺🇦
+  - I am a Developer and a Tech Lead
+  - I love Java, Python and Linux
+  - I am proud to be a Ukrainian 🇺🇦
