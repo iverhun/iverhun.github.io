@@ -5,6 +5,14 @@
   }
 }
 
+.home {
+  img {
+    width: 158px;
+    height: 158px;
+  }
+}
+
 html[data-theme='dark'] .home img {
   background-color: #e2e8f0;
 }
+
