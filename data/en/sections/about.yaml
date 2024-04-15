@@ -59,7 +59,7 @@ badges:
 
 - type: certification
   name: Oracle Certified Professional, Java SE 6 Programmer
-  # url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  url: "https://www.credly.com/badges/8144e34d-13fd-446e-b6df-8c90721e8b96/public_url"
   badge: "/files/SUN692393.png"
 
 # - type: soft-skill-indicator

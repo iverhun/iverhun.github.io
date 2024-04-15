@@ -1,0 +1,95 @@
+# section information
+section:
+  name: Articles
+  id: articles
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+# - name: "Machine Learning"
+#   filter: "machinelearning"
+- name: "Knowledge Sharing"
+  filter: "knowledge-sharing"
+- name: Security
+  filter: "security"
+- name: DevOps
+  filter: "devops"
+
+# your publications
+articles:
+- title: Passwordless Authentication with WebAuthn
+  publishedIn:
+    name: Medium - @jappware
+    date: Feb 16, 2024
+    url: https://medium.com/@jappware/passwordless-authentication-with-webauthn-4bfe7c34ee95
+  authors:
+  - name: Oleh Tokarenko
+    url: https://www.linkedin.com/in/oleh-tokarenko-165793133/
+  - name: Ivan Verhun
+    url: https://www.linkedin.com/in/ivanverhun/
+  paper:
+    summary: |
+      Authentication factors fall into three categories: something you know (knowledge factor), something you have (possession factor), and something you are (inherence factor). E.g., passwords and security questions belong to the knowledge factor category.
+
+      Since each type is prone to different risks, MFA methods combine multiple factor types to overlap gaps and strengthen the overall security.
+
+      But considering all the weaknesses the knowledge factor possesses, would it be enough to use only possession and inherence factors? A new specification approved by the W3C and FIDO in 2019 — Web Authentication API (also known as WebAuthn) tries to solve precisely this problem.
+    url: https://medium.com/@jappware/passwordless-authentication-with-webauthn-4bfe7c34ee95
+  categories: ["security"]
+  tags: ["Passwordless Authentication", "WebAuthn", "MFA", "2FA",  "Multi-Factor Authentication", "Two-Factor Authentication"]
+
+- title: Preparing a Great Technical Presentation
+  publishedIn:
+    name: Jappware Website Blog
+    date: Aug. 11, 2023
+    url: https://www.jappware.com/insights/preparing-a-great-technical-presentation/
+  authors:
+  - name: Ivan Verhun
+    url: https://www.linkedin.com/in/ivanverhun/
+  paper:
+    summary: |
+      One fundamental engineering values is knowledge sharing. Therefore, I and my friends regularly participate in technical meetups and conferences organization, and one of our most important goals is to ensure the highest quality of technical talks.       
+      
+      Just like famous GoF collected and described the most typical design patterns in software, our team collected a set of common mistakes speakers make during their talks over several years.
+    url: https://www.jappware.com/insights/preparing-a-great-technical-presentation/
+  categories: ["knowledge-sharing"]
+  tags: ["Presentation", "Tech Talk", "Cheat Sheet"]
+
+- title: AWS CloudFormation for Newbies
+  publishedIn:
+    name: Medium - @jappware
+    date: Oct. 9, 2020
+    url: https://medium.com/@jappware/aws-cloud-formation-for-newbies-cc215e90dea9
+  authors:
+  - name: Demian Hudz
+    url: https://www.linkedin.com/in/demian-hudz-511a36167/
+  - name: Ivan Verhun
+    url: https://www.linkedin.com/in/ivanverhun/
+  paper:
+    summary: Nowadays, there are plenty of tools in the IaC domain operating on a different level and supporting different environments both on-premise and in a cloud. In this article, we will help you understand the basics of the AWS CloudFormation which is a managed IaC service provided by Amazon specifically for their AWS cloud platform.
+    url: https://medium.com/@jappware/aws-cloud-formation-for-newbies-cc215e90dea9
+  categories: ["devops"]
+  tags: ["DevOps", "IaaC", "Infrastructure as a code", "AWS", "CloudFormation", "intro"]
+
+- title: "Protecting your IT system: Choosing a Right MFA Solution"
+  publishedIn:
+    name: Medium - @ivan.verhun
+    date: April 10, 2020
+    url: https://medium.com/@ivan.verhun/protecting-your-it-system-choosing-a-right-mfa-solution-74e0f04c54df
+  authors:
+  - name: Ivan Verhun
+    url: https://www.linkedin.com/in/ivanverhun/
+  paper:
+    summary: |
+      Why are even the biggest and most reach companies vulnerable to data thefts despite they invest an enormous amount of money and effort on their IT systems security?
+      I doubt anyone has the right answer to this question, but I believe one of the reasons (probably not the most important though) is that many software engineers blindly follow some security recommendations, without a clear understanding of the topic.
+      Let’s look at one of the common authentication techniques — Multi-Factor authentication, or MFA in short and think what approach to MFA is secure enough in your particular case.
+    url: https://medium.com/@ivan.verhun/protecting-your-it-system-choosing-a-right-mfa-solution-74e0f04c54df
+  categories: ["security"]
+  tags: ["security", "MFA", "2FA", "Multi-Factor Authentication", "Two-Factor Authentication"]

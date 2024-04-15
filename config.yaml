@@ -53,6 +53,7 @@ params:
   # Background image of the landing page
   # Source: https://twitter.com/Maxar/status/1534260682543316992
   background: /images/site/background.jpg
+  opengraph_io_api_key: 5f789624-f127-4d4c-b45c-9f7807f8551d	
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -79,7 +80,7 @@ params:
 
     # Enable and configure portfolio
     portfolio:
-      enable: false
+      enable: true
 
     # Enable and configure blog posts
     blog:
