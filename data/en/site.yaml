@@ -25,5 +25,5 @@ openGraph:
   title: Ivan Verhun
   type: website
   description: My Portfolio and Blog
-  image: images/site/og-thumbnail.jpeg
+  image: "/files/og-thumbnail.jpg"
   url: https://iverhun.github.io
