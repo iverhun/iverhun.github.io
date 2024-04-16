@@ -48,6 +48,13 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+privacy:
+    googleAnalytics:
+      anonymizeIP: false
+      disable: false
+      respectDoNotTrack: false
+      useSessionStorage: false
+
 # Site parameters
 params:
   # Background image of the landing page
@@ -140,11 +147,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-CFSJ8VMRJX
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
