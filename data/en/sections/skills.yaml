@@ -13,7 +13,7 @@ section:
 skills:
 - name: Java
   logo: /images/sections/skills/java.svg
-  summary: "{{< fa fab java >}} Java is my first and lifelong love 💙 Since version 1.4 (2004), it has inspired me with its elegance and power. Java is one of my primary choices for enterprise-scale applications and small POCs. Spring Framework, Hibernate, and Maven are my pets 🐶"
+  summary: "Java is my first and lifelong love 💙 Since version 1.4 (2004), it has inspired me with its elegance and power. Java is one of my primary choices for enterprise-scale applications and small POCs. Spring Framework, Hibernate, and Maven are my pets 🐶"
 #  url: "https://java.com/"
 
 - name: Python

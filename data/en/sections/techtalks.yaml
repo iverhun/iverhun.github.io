@@ -52,15 +52,15 @@ techtalks:
     video: "{{< youtube 5ZSrnrmdN5Q>}}"
   overview: Every Java developer knows about the power of annotations and libraries like Lombok. However, not everyone understands how this “magic” works and how we can leverage it besides using third-party libraries. This talk reveals the back-stage of compile-time annotation processing.
  
-- name: From Pilot to Product
+- name: From Pilot to Product - Architecture
   date: Nov 14, 2014
   event: 
     name: Morning@Lohika
     url: https://twitter.com/morningatlohika?lang=en
     video: "{{< youtube SH_aQduJ8Ks >}}"
   overview: "A sincere story about the successful project. Part 1 - Architecture evolution, Technologies and Tools, Mistakes"
- 
-- name: From Pilot to Product
+
+- name: From Pilot to Product - Process
   date: Nov 14, 2014
   event: 
     name: Morning@Lohika
@@ -68,7 +68,7 @@ techtalks:
     video: "{{< youtube fjd76HdhIjY >}}"
   overview: "A sincere story about the successful project. Part 2 - Development Process: Methodology, Techniques and Tools"
  
-- name: "Spring Roo: just try it"
+- name: "Spring Roo: Just Try It"
   date: Oct 12, 2011
   event: 
     name: JUG Lviv
