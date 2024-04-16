@@ -24,6 +24,6 @@ customMenus:
 openGraph:
   title: Ivan Verhun
   type: website
-  description: Portfolio and personal blog of Ivan Verhun.
-  image: images/author/ivan.jpg
+  description: My Portfolio and Blog
+  image: images/site/og-thumbnail.jpeg
   url: https://iverhun.github.io
