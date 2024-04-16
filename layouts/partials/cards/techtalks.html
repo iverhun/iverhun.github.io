@@ -1,0 +1,27 @@
+{{ $language := "Ukrainian" }}
+{{ if .language}}
+    {{ $language = .language }}
+{{end}}
+
+<div class="col-md-12 col-lg-6 p-2">
+    <div class="card mt-3">
+      <div class="card-header">
+        <h5 class="card-title mb-0">{{ .name | markdownify }}</h5>
+        <div class="sub-title">
+          <span><a href="{{ .event.url }}" title="{{ .event.name }}" target="_blank" rel="noopener">{{ .event.name }}</a></span>
+          <span class="ml-2">{{ .date }}</span>
+          <span class="ml-2"><i class="fa-solid fa-globe"></i> {{ $language }}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <p>{{ .overview | markdownify }}</p>
+        {{ if .event.video }}
+            <p>{{ .event.video | markdownify }}</p>
+        {{ end }}
+        {{ if .event.thumbnail }}
+            <img src="{{ .event.thumbnail }}" alt="{{ .event.name }}" />
+        {{ end }}
+      </div>
+      </div>
+  </div>
+  

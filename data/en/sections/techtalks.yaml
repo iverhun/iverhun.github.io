@@ -1,0 +1,80 @@
+# section information
+section:
+  name: Tech Talks
+  id: techtalks
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+techtalks:
+- name: 3D printing - a toy or an irreplaceable tool
+  date: "Jul 11, 2023"
+  language: Ukrainian
+  event:
+    name: Lviv JavaClub [Event 281]
+    url: https://www.javaclub.lviv.ua/2023/07/11/Event-281-3D-printing-a-toy-or-an-irreplaceable-tool.html
+    video: "{{< youtube e9qlwZt_H4g >}}"
+  overview: "When I purchased my first second-hand 3D printer, I had no specific purpose. I just wanted to explore the technology. Suddenly, my curiosity turned not only into a hobby but into a practical opportunity to help my country survive. In this video, I explain 3D printing basics and how it helps fight the enemies of Ukraine and mankind."
+
+- name: Tools overview
+  date: Jul 5, 2022
+  event:
+    name: Lviv JavaClub [Event 229]
+    url: https://www.javaclub.lviv.ua/2022/07/05/Event-229-tools-overview.html
+    video: "{{< youtube yPnzq3QbNzc >}}"
+  overview: Sometimes, a tiny tool or a little-known application might be a time-saver if it automates or simplifies a daily routine that would be performed manually. In this video, I share a few useful tools I use every day to be more productive.
+
+- name: Git internals
+  date: "Oct 27, 2021"
+  event:
+    name: Lviv JavaClub [Event 205] 
+    url: https://www.javaclub.lviv.ua/2021/10/27/Event-205-Git-internals.html
+    video: "{{< youtube Xk5hH79dCBU >}}"
+  overview: "What's the difference between `git merge` and `git rebase`? What the heck is `commit` and `branch`? How are Plumbing and Porcelain related to Git, and how does Git work under the hood in general?"
+
+- name: Compile-time annotation processing in Java
+  date: June 17, 2021
+  event: 
+    name: CoffeeJug
+    url: https://www.coffeejug.org/copy-of-coffeejug-with-ivan-verhun
+    thumbnail: "/files/2021.06.17_coffeejug.webp"
+  overview: Every Java developer knows about the power of annotations and libraries like Lombok. However not everyone understands how this "magic" works, and how can we leverage it besides using third-party libraries. This talk reveals the back-stage of compile-time annotation processing. 
+
+- name: Compile-time annotation processing in Java
+  date: Oct 12, 2020
+  event:
+    name: Lviv JavaClub [Event 153]
+    url: https://www.javaclub.lviv.ua/2020/10/12/Event-153-Annotation-processing.html
+    video: "{{< youtube 5ZSrnrmdN5Q>}}"
+  overview: Every Java developer knows about the power of annotations and libraries like Lombok. However, not everyone understands how this “magic” works and how we can leverage it besides using third-party libraries. This talk reveals the back-stage of compile-time annotation processing.
+ 
+- name: From Pilot to Product
+  date: Nov 14, 2014
+  event: 
+    name: Morning@Lohika
+    url: https://twitter.com/morningatlohika?lang=en
+    video: "{{< youtube SH_aQduJ8Ks >}}"
+  overview: "A sincere story about the successful project. Part 1 - Architecture evolution, Technologies and Tools, Mistakes"
+ 
+- name: From Pilot to Product
+  date: Nov 14, 2014
+  event: 
+    name: Morning@Lohika
+    url: https://twitter.com/morningatlohika?lang=en
+    video: "{{< youtube fjd76HdhIjY >}}"
+  overview: "A sincere story about the successful project. Part 2 - Development Process: Methodology, Techniques and Tools"
+ 
+- name: "Spring Roo: just try it"
+  date: Oct 12, 2011
+  event: 
+    name: JUG Lviv
+    url: https://jug.lviv.ua/2011/10/04/11-%d1%82%d0%b0-%d0%b7%d1%83%d1%81%d1%82%d1%80%d1%96%d1%87-java-user-group-of-lviv/
+    thumbnail: /files/2011.10.12_juglviv.png
+  overview: "Spring Roo is an open-source software tool that uses convention-over-configuration principles to provide rapid application development of Java-based enterprise software."
+ 
+
+
