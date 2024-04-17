@@ -40,7 +40,7 @@ experiences:
     # darklogo: /images/sections/experiences/company2.jpg
     overview: Founded in 2001, Lohika (now part of Capgemini) was the IT software development company specializing in product innovation and engineering services for cutting-edge technology companies.
   positions:
-  - designation: Software Engineer
+  - designation: Software Engineer, Team Lead
     start: July 2011
     end: Feb 2020
     responsibilities:
@@ -67,13 +67,13 @@ experiences:
     - 🧑🏽‍💻 I learned to do Code Reviews, design features, propose solutions, and give technical presentations. 
     - 🚌 It was the "school time" in my professional life.
 - company:
-    name: Ericpol
-    url: "https://www.softserveinc.com/"
+    name: Ericpol Telecom
+    url: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/poland"
     location: Lviv, Ukraine 🇺🇦
     logo: /images/sections/experiences/ericpol.jpg
     # Can optionally show a different logo for dark theme
     darkLogo: /images/sections/experiences/ericpol-dark.jpeg
-    overview: Ericpol (now part of Ericson) was a telecommunication company headquartered in Krakow, Poland, with a development center in Lviv, Ukraine.
+    overview: Ericpol Telecom (later acquired by Ericsson) was a telecommunication company headquartered in Krakow, Poland, with a development center in Lviv, Ukraine.
   positions:
   - designation: Junior Java Engineer
     start: March 2005
