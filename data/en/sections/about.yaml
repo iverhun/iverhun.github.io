@@ -53,14 +53,24 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
+  name: Oracle Certified Professional, Java SE 6 Programmer
+  url: "https://www.credly.com/badges/8144e34d-13fd-446e-b6df-8c90721e8b96/public_url"
+  badge: "/files/SUN692393.png"
+
+- type: certification
   name: C1 Advanced English Level
   url: "https://internationalenglishtest.com/verify-certificate/13912DD13-13912DD76-139129210/"
   badge: "/files/13912DD13-13912DD76-139129210.png"
 
 - type: certification
-  name: Oracle Certified Professional, Java SE 6 Programmer
-  url: "https://www.credly.com/badges/8144e34d-13fd-446e-b6df-8c90721e8b96/public_url"
-  badge: "/files/SUN692393.png"
+  name: Java Multithreading, Concurrency & Performance Optimization
+  url: "https://www.udemy.com/certificate/UC-2d45d079-273c-4fa7-8cc4-c112d3d50756/"
+  badge: "/files/UC-2d45d079-273c-4fa7-8cc4-c112d3d50756.jpeg"
+
+- type: certification
+  name: Python Core
+  url: "https://www.sololearn.com/certificates/CT-KVIDFHUE"
+  badge: "/files/CT-KVIDFHUE.png"
 
 # - type: soft-skill-indicator
 #   name: Leadership
