@@ -11,6 +11,15 @@ section:
 
 # Your accomplishments
 techtalks:
+- name: WildFly - a modular application server by Ivan Verhun
+  date: "May 22, 2024"
+  language: Ukrainian
+  event:
+    name: Lviv JavaClub [Event 323]
+    url: https://www.javaclub.lviv.ua/2024/05/22/Event-323-WildFly-a-modular-application-server.html
+    video: "{{< youtube 2DZs_9qjCMM >}}"
+  overview: "Once upon a time, I had the opportunity to look beyond my Spring Framework bubble and play with Jakarta EE and its WildFly incarnation. In this video, I tell the story of Jakarta EE, a WildFly application server, and show an example of a simple EE application running on WildFly."
+
 - name: 3D printing - a toy or an irreplaceable tool
   date: "Jul 11, 2023"
   language: Ukrainian
