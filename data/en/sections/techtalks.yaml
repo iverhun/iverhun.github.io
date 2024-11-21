@@ -18,7 +18,7 @@ techtalks:
     name: Lviv JavaClub [Event 326]
     url: https://www.javaclub.lviv.ua/2024/06/11/Event-326-Beyond-Bits-Exploring-the-World-of-Quantum-Computing.html
     video: "{{< youtube 9ztqgNrE-uE >}}"
-  overview: "Once upon a time, I had the opportunity to look beyond my Spring Framework bubble and play with Jakarta EE and its WildFly incarnation. In this video, I tell the story of Jakarta EE, a WildFly application server, and show an example of a simple EE application running on WildFly."
+  overview: "Are modern computers enough for all real-world problems? If not, what’s the alternative? This talk dives into how quantum computers differ from classical ones, explores their potential applications, and discusses whether they’ll replace or enhance current tech, along with the challenges of building them."
 
 - name: WildFly - a modular application server
   date: "May 22, 2024"
