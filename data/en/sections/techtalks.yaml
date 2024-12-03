@@ -12,12 +12,12 @@ section:
 # Your accomplishments
 techtalks:
 - name: Property-Based Testing on Java with jqwik
-    date: "Nov 21, 2024"
-    language: Ukrainian
-    event:
-      name: Lviv JavaClub [Event 349]
-      url: https://www.javaclub.lviv.ua/2024/11/19/Event-349-Property-Based-Testing-on-Java-with-jqwik.html
-      video: "{{< youtube 5LRp5j5TDzY >}}"
+  date: "Nov 21, 2024"
+  language: Ukrainian
+  event:
+    name: Lviv JavaClub [Event 349]
+    url: https://www.javaclub.lviv.ua/2024/11/19/Event-349-Property-Based-Testing-on-Java-with-jqwik.html
+    video: "{{< youtube 5LRp5j5TDzY >}}"
     overview: "Dive into the world of Property-Based Testing with jqwik! This talk explains the shift from example-based to property-based testing, key PBT concepts, and how to uncover meaningful properties. Includes a live coding session to explore jqwik’s power and patterns for crafting robust tests. Perfect for Java enthusiasts!"
 
 - name: Beyond Bits - Exploring the World of Quantum Computing
