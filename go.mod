@@ -1,11 +1,5 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/iverhun/portfolio
 
-go 1.21
+go 1.22.1
 
-toolchain go1.23.3
-
-require github.com/hugo-toha/toha/v4 v4.8.0 // indirect
-
-// replace(
-//     github.com/hugo-toha/toha/v4 => ../toha
-// )
+require github.com/hugo-toha/toha/v4 v4.9.0 // indirect

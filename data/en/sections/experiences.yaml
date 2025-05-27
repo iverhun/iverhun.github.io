@@ -11,7 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Jappware.
+    name: Software Service & Innovation
+    url: "https://soft-innovation.ch"
+    location: Lviv, Ukraine 🇺🇦
+    logo: /images/sections/experiences/ssi-logo.svg
+    overview: A Swiss company, founded in 2018 in Geneva that specializes in software development services, with expertise in creating complex IT solutions for various industries, including fintech, e-commerce, and artificial intelligence.
+  positions:
+    - designation: Java Engineer
+      start: June 2024
+      end: Present
+      responsibilities:
+        - 🏗️ I'm a part of a team developing a digital platform for Emil Frey Group, a leading European automobile company
+        - 🥅 My passion and mission here are to create high-quality, maintainable, and scalable software solutions that meet the needs of our clients and end-users.
+        - 📚 I am committed to sharing my experience within the team by showing rather than telling how to design and implement maintainable and clean code.
+- company:
+    name: Jappware
     url: "https://www.jappware.com"
     location: Lviv, Ukraine 🇺🇦
     logo: /images/sections/experiences/jappware.png

@@ -11,6 +11,24 @@ section:
 
 # Your accomplishments
 techtalks:
+- name: Object Mother Pattern
+  date: "Apr 15, 2025"
+  language: Ukrainian
+  event:
+    name: Lviv JavaClub [Event 367]
+    url: https://www.javaclub.lviv.ua/2025/04/15/Event-367-Object-Mother-Pattern.html
+    video: "{{< youtube IyAybIH2sGQ >}}"
+  overview: "In this talk, I presented the Object Mother Pattern as a cleaner and more maintainable approach to test data setup. Using a real-world demo project, I walked through common issues with traditional test data preparation and shared practical tips for applying the pattern effectively in everyday testing."
+
+- name: "Inside Ukraine’s IT Industry – 2024 Retrospective"
+  date: "Dec 17, 2024"
+  language: Ukrainian
+  event:
+    name: Lviv JavaClub [Event 353]
+    url: https://www.javaclub.lviv.ua/2024/12/17/Event-353-2024-retrospective.html
+    video: "{{< youtube a-ZVGC1I7Cg >}}"
+  overview: "A retrospective overview of Ukraine’s IT industry in 2024, based on data from trustworthy sources. We cover trends in outsourcing vs. product companies, economy, export, labor market shifts, and specialization demand — ending with insights from a recruiter’s perspective and practical advice for IT professionals."
+
 - name: Property-Based Testing on Java with jqwik
   date: "Nov 21, 2024"
   language: Ukrainian

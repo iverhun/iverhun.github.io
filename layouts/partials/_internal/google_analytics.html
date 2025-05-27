@@ -1,0 +1,26 @@
+<!-- {{/*
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FIXME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    This file overrides the original file due to the bug in Toha theme which
+    breaks Google Analytics integration: 
+    https://github.com/hugo-toha/toha/issues/856#issuecomment-2021312021
+
+    More specifically, line 8 in the original file reads like
+    {{ $analyticsConfig := dict (slice "Site" "GoogleAnalytics") .id }}
+
+    But it should be (line 25 here):
+    {{ $analyticsConfig := dict (slice "Site" "Config" "Services" "GoogleAnalytics" "ID") .id }}
+
+    This file should be removed as soon as the Toha theme fixes the issue.
+    */}}
+-->
+{{- with .Site.Params.googleAnalytics -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+</script>
+{{- end -}}
